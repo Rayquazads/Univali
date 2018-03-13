@@ -1,2 +1,2 @@
 # Univali
-Focado em trabalhos universitário na instituição Univali
+Focado em trabalhos universitários na instituição Univali
