@@ -14,7 +14,7 @@ int CriarPersonagem(int Personagem[6]) {
 	Personagem[2] = 0;//Espada
 	Personagem[3] = 0;//Escudo
 	Personagem[4] = 0;//Quantas vezes fugiu
-	Personagem[5] = 0;//Sala onde esta
+	Personagem[5] = 1;//Sala onde esta
 
 	return *Personagem;
 }
