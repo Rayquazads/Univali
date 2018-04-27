@@ -32,7 +32,7 @@ int Matriz(bool verificacao, int sala, int SalasPosiveis[2]) {
 	if (verificacao == true) {
 		for (int i = sala; i <= sala; i++) {
 			for (int j = 0; j < 2; j++) {
-				SalasPosiveis[j] = matriz[i][j];
+				SalasPosiveis[j] = matriz[i-1][j];
 			}
 		}
 		return *SalasPosiveis;
@@ -56,7 +56,7 @@ void Movimento(int persongem[6]) {
 	
 	cout << "Voce esta na sala " << persongem[5]<<endl;
 	Matriz(true, persongem[5], SalasPossiveis);
-	cout << "Essa são as salas possiveis para ir: " << endl;
+	cout << "Essa sÃ£o as salas possiveis para ir: " << endl;
 	for (int i = 0; i < 2; i++) {
 		cout << SalasPossiveis[i] << endl;
 	}
